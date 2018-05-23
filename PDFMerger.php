@@ -32,7 +32,7 @@
  *  - essentially, it cannot import dynamic content such as form fields, links
  * or page annotations (anything not a part of the page content stream).
  */
-namespace PDFMerger;
+//namespace PDFMerger;
 
 class PDFMerger
 {
@@ -47,6 +47,7 @@ class PDFMerger
 	{
 		require_once('tcpdf/tcpdf.php');
 		require_once('tcpdf/tcpdi.php');
+		//print_r(get_declared_classes());
 	}
 
 	/**
